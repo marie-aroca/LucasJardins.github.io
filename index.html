@@ -6,15 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lucas Jardins</title>
         <meta name="description" content="Lucas Jardins, jardinier & paysagiste depuis plus de 25ans.">
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Alexandria&family=Koulen&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body id="top">
         <header>
 
             <div id="title">
                 <img class="leaf" src="images/feuille.webp" alt="Illustration d'une feuille verte stylisée">
-                <h1>Lucas Jardins</h1>
-                <img id="leaf" src="images/feuille.webp" alt="Illustration d'une feuille verte stylisée">
+                <h1>LUCAS JARDINS</h1>
+                <img class="leaf" src="images/feuille.webp" alt="Illustration d'une feuille verte stylisée">
             </div>
             
             <hr id="line1">
@@ -43,9 +45,9 @@
 
         </header>
             
-        <div id="acceuil">
-            <img src="images/jardinavecarbre.jpeg" alt="Jardin avec de nombreux arbres et en son centre une petite clairière et trois plus petits arbres au centre.">
-            <img src="images/logo.png" alt="Logo de Lucas Jardins représentant un arbre stylisé">
+        <div id="accueil">
+            <img id="bg" src="images/jardinavecarbre.jpeg" alt="Jardin avec de nombreux arbres et en son centre une petite clairière et trois plus petits arbres au centre.">
+            <img id="logo" src="images/logo.png" alt="Logo de Lucas Jardins représentant un arbre stylisé">
         </div>
 
         <section id="intro">
@@ -69,7 +71,7 @@
 
         <section id="engagement">
             <h2>NOS ENGAGEMENTS</h2>
-            <hr>
+            <hr id="line2">
 
             <div id="engagements">
                 <div class="engagementlight">
@@ -80,19 +82,20 @@
                     <p class="title">Plantes De Qualité :</p>
                     <p>Nous vous conseillons et choisissons avec vous les meilleures espèces adaptées à votre environnement.</p>
                 </div>
-                <div class="engagementlight">
+                <div class="engagementdark">
                     <p class="title">Délais Respectés :</p>
                     <p>Un de nos engagements, celui de tenir les délais présentés.</p>
                 </div>
-                <div class="engagementdark">
+                <div class="engagementlight">
                     <p class="title">Service Professionnel :</p>
                     <p>Depuis 1998, nous œuvrons pour satisfaire nos clients.</p>
                 </div>
             </div>
         </section>
-
+        
         <section id="stats">
             <h2>NOS CHIFFRES CLEFS</h2>
+
             <div class="stat">
                 <p class="number">1 000</p>
                 <p class="label">Clients satisfaits</p>
@@ -123,7 +126,9 @@
             <h2>SUIVEZ-NOUS SUR LES RÉSEAUX</h2>
 
             <div id="facebook">
+            <a href="https://www.facebook.com/profile.php?id=100089258752223" target="_blank">
                 <img src="images/logofacebook.png" alt="Logo officiel de Facebook">
+            </a>
                 <p>Lucas Jardins</p>
             </div>
             
@@ -140,15 +145,20 @@
             </div>
             
             <div id="instagram">
-                <img src="images/logoinsta.png" alt="Logo officiel d'Instagram">
+                <a href="https://www.instagram.com/lucasjardins06/" target="_blank">
+                    <img src="images/logoinsta.png" alt="Logo officiel d'Instagram">
+                </a>
                 <p>lucasjardins06</p>
             </div>
+            <h2>SUIVEZ-NOUS SUR LES RÉSEAUX</h2>
         </section>
 
         <footer>
             <img src="images/gazon.jpeg" alt="Pelouse tondue vue de près, avec une texture dense et verte" id="background">
             <div id="content">
-                <img src="images/logo.png" alt="Logo de Lucas Jardins en forme d'arbre">
+                <a href="#top">
+                    <img src="images/logo.png" alt="Logo de Lucas Jardins en forme d'arbre">
+                </a>
                 <p>Lucas Jardins © 2025 - Groupe 3 équipe 2</p>
             </div>
         </footer>
