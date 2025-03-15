@@ -1,3 +1,5 @@
+    /* Vous pouvez récupérer ça jusqu'au prochain message */
+
 html {
     scroll-behavior: smooth;
 }
@@ -116,6 +118,8 @@ h1 {
     width: 103px;
     height: 77px;
 }
+
+    /* Vous pouvez récupérer jusque ici et n'oubliez pas le footer plus bas*/
 
 #intro h2 {
     color: #153A04;
@@ -298,6 +302,8 @@ h2{
     width: calc(100% / 3); 
     height: auto;
 }
+
+    /* Vous pouvez récupérer toute la fin */
 
 footer {
     position: relative;
