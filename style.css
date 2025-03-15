@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Alexandria', sans-serif;
     color: black;
@@ -25,17 +29,13 @@ h1 {
     height: 70px;
 }
 
-#leaf {
-    width: 80px;
-    height: 80px;
-}
-
 #line1 {
     width: 680px;
     height: 1px;
     background-color: black;
     border: none;
     margin: 0px auto;
+    margin-top: -30px;
 }
 
 #navbar {
@@ -111,7 +111,7 @@ h1 {
 
 #logo {
     position: absolute;
-    top: 200px;
+    top: 220px;
     left: 20px;
     width: 103px;
     height: 77px;
@@ -190,8 +190,8 @@ h1 {
     margin-top: 50px;
 }
 
-hr {
-    width: 370px;
+#line2 {
+    width: 380px;
     height: 1px;
     background-color: #153A04;
     border: none;
