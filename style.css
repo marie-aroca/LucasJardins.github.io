@@ -151,7 +151,6 @@ h1 {
     height: 332px;
     object-fit: cover;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 #text {
@@ -292,7 +291,7 @@ h2{
     height: auto;
 }
 
-    /* Vous pouvez récupérer toute la fin */
+    /* Vous pouvez récupérer ça jusqu'au prochain message */
 
 footer {
     position: relative;
@@ -360,6 +359,7 @@ footer {
 #intro {
     text-align: center;
     padding: 20px;
+    margin-bottom: 15px;
 }
 
 #intro p {
@@ -432,4 +432,39 @@ footer {
     text-align: center;
     font-style: italic;
     font-size: 20px;
+}
+
+    /* Vous pouvez récupérer ça jusque ici */
+
+.témoignages {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.témoignages .left, .témoignages .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+}
+
+.témoignages img {
+    width: 500px;
+    height: 281px;
+    object-fit: cover;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease-in-out; 
+}
+
+.témoignages img:hover {
+    transform: scale(1.1);
+}
+
+.témoignages p {
+    font-size: 20px;
+    text-align: center;
+    max-width: 600px;
+    width: fit-content;
+    line-height: 1.4;
 }
