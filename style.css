@@ -1,5 +1,3 @@
-    /* Vous pouvez récupérer ça jusqu'au prochain message */
-
 html {
     scroll-behavior: smooth;
 }
@@ -107,8 +105,6 @@ h1 {
     width: clamp(50px, 6vw, 103px);
     height: clamp(38px, 4.5vw, 77px);
 }
-
-    /* Vous pouvez récupérer jusque ici et n'oubliez pas le footer plus bas*/
 
 #intro h2 {
     color: #153A04;
@@ -296,8 +292,6 @@ h2{
     height: auto;
 }
 
-    /* Vous pouvez récupérer ça jusqu'au prochain message */
-
 footer {
     position: relative;
     width: 100%;
@@ -438,8 +432,6 @@ footer {
     font-size: clamp(10.88px, 1.36vw, 19.99px);
 }
 
-    /* Vous pouvez récupérer ça jusque ici */
-
 .témoignages {
     width: 80%;
     margin: auto;
@@ -455,7 +447,7 @@ footer {
 
 .témoignages img {
     width: clamp(220px, 34.02vw, 500px);
-    aspect-ratio: 16 / 9; /* Définit un format fixe */
+    aspect-ratio: 16 / 9; 
     object-fit: cover;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: transform 0.3s ease-in-out; 
@@ -514,17 +506,17 @@ footer {
     }
 
     .témoignages .left, .témoignages .right {
-        flex-direction: column; /* Empile les éléments */
-        align-items: center; /* Centre le texte et l’image */
-        text-align: center; /* Centre le texte */
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .imgl, .imgr {
-        margin: 0 0 10px 0; /* Supprime les marges latérales et ajoute de l’espace en dessous */
+        margin: 0 0 10px 0; 
     }
 
     .right img {
-        order: -1; /* Met l'image en premier */
+        order: -1;
     }
 
     .info {
