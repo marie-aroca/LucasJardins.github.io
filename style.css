@@ -363,7 +363,7 @@ footer {
 
 #intro p {
     font-size: clamp(12px, 1.63vw, 26px);
-    width: clamp(280px, 54.42vw, 870px);
+    width: clamp(280px, 54.42vw, 600px);
     margin: 0 auto;
     line-height: 1.5;
 }
